@@ -23,13 +23,18 @@ a {
 }
 
 header {
-  background-color: red;
+  background-color: #212529;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   padding: 1rem;
   z-index: 100;
+}
+
+.logo {
+  font-weight: 600;
+  font-size: 1.2rem;
 }
 
 .navbar {
@@ -50,7 +55,7 @@ header {
   display: block;
   width: 25px;
   height: 3px;
-  margin: 5px auto;
+  margin: 5px 0;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
@@ -60,7 +65,7 @@ header {
   nav {
     width: 100%;
     position: fixed;
-    top: 57px;
+    top: 61px;
     right: -100%;
     transition: 0.5s;
     padding: 1rem;

@@ -14,7 +14,6 @@ body {
   font-family: 'Poppins', sans-serif;
   background-color: #212529;
   color: #fff;
-  height: 200vh;
 }
 
 a {
@@ -72,7 +71,9 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: blue;
+    /* background-color: blue; */
+    border-radius: 0 0 1rem 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   }
 
   .hamburger {
@@ -81,7 +82,29 @@ header {
   }
 
   .active {
-    /* display: flex; */
     right: 0;
   }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+}
+
+/* ===================WELCOME SECTION================ */
+main {
+  margin-top: 5rem;
+}
+
+#welcome-section {
+  display: flex;
+  align-items: center;
+  height: 100vh;
 }

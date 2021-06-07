@@ -39,6 +39,13 @@ header {
 .navbar {
   display: flex;
   justify-content: space-between;
+  background-color: #212529;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem;
+  z-index: 100;
 }
 
 .nav-link {
@@ -99,12 +106,13 @@ header {
 }
 
 /* ===================WELCOME SECTION================ */
-main {
-  margin-top: 5rem;
-}
 
 #welcome-section {
   display: flex;
   align-items: center;
   height: 100vh;
+}
+
+/* =================MEDIA QUERY FOR DESKTOP=============== */
+@media screen and (min-width: 767px) {
 }

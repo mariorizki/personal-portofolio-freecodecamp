@@ -4,15 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
+    <title>Personal Portofolio</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <header class="navbar" id="navbar">
       <a href="#welcome-section" class="logo">Mario Rizki</a>
       <nav id="nav-links">
         <a href="#projects" class="nav-link">Projects</a>
-        <a href="#tech-stack" class="nav-link">Tech Stack</a>
+        <a href="#Skills" class="nav-link">Skills</a>
         <a href="#about" class="nav-link">About Me</a>
         <a href="#connect" class="nav-link">Connect</a>
       </nav>
@@ -24,17 +31,79 @@
     </header>
 
     <main>
+      <!-- WELCOME -->
       <section id="welcome-section">
         <h1>Hi, Welcome to My Website</h1>
+        <h2>I'm<span class="typing"></span></h2>
       </section>
+
+      <!-- PROJECTS -->
       <section id="projects">
-        <h1>Projects</h1>
-        <div class="project-card">
-          <img class="card-img" src="./images/coldplay.png" alt="" />
+        <h1 class="section-title">Projects</h1>
+        <h3 class="subtitle">Responsive Web Design</h3>
+        <div class="projects-grid">
+          <div class="project-tile">
+            <div class="img-container">
+              <img
+                class="card-img"
+                src="./images/technical-documentation.png"
+                alt=""
+              />
+            </div>
+            <div class="project-content">
+              <h3>Technical Documentation</h3>
+              <div class="links">
+                <div class="link">
+                  <i class="fab fa-github"></i>
+                  <p>Github</p>
+                </div>
+                <div class="link">
+                  <i class="fas fa-laptop-code"></i>
+                  <p>Demo</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-tile">
+            <img class="card-img" src="./images/landing-page.png" alt="" />
+            <div class="project-content">
+              <h3>Landing Page</h3>
+              <div class="links">
+                <div class="link">
+                  <i class="fab fa-github"></i>
+                  <p>Github</p>
+                </div>
+                <div class="link">
+                  <i class="fas fa-laptop-code"></i>
+                  <p>Demo</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-tile">
+            <img class="card-img" src="./images/coldplay.png" alt="" />
+            <div class="project-content">
+              <h3>Tribute Page</h3>
+              <div class="links">
+                <a href="">
+                  <div class="link">
+                    <i class="fab fa-github"></i>
+                    <p>Github</p>
+                  </div>
+                </a>
+                <a href="">
+                  <div class="link">
+                    <i class="fas fa-laptop-code"></i>
+                    <p>Demo</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
-      <section id="tech-stack">
-        <h1>Tech Stack</h1>
+      <section id="skills">
+        <h1>Skills</h1>
       </section>
     </main>
 

@@ -113,12 +113,13 @@ header {
   flex-direction: column;
   height: 100vh;
   padding-left: 3rem;
+  text-align: center;
 }
 
 .typing {
   margin-left: 0.5rem;
   position: relative;
-  color: #fca311;
+  color: #c84b31;
 }
 
 .typing::after {

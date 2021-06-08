@@ -113,6 +113,12 @@ header {
   height: 100vh;
 }
 
+/* ==================PROJECTS SECTION================= */
+
+.card-img {
+  width: 500px;
+}
+
 /* =================MEDIA QUERY FOR DESKTOP=============== */
 @media screen and (min-width: 767px) {
 }

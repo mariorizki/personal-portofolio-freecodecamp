@@ -13,6 +13,7 @@ const navLink = document.querySelectorAll('.nav-link');
 
 function linkAction() {
   navLinks.classList.remove('active');
+  toggleButton.classList.toggle('active');
 }
 
 navLink.forEach(n => n.addEventListener('click', linkAction));

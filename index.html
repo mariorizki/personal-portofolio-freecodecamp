@@ -13,15 +13,16 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <header class="navbar" id="navbar">
       <a href="#welcome-section" class="logo">Mario Rizki</a>
       <nav id="nav-links">
         <a href="#projects" class="nav-link">Projects</a>
-        <a href="#Skills" class="nav-link">Skills</a>
+        <a href="#skills" class="nav-link">Skills</a>
         <a href="#about" class="nav-link">About Me</a>
-        <a href="#connect" class="nav-link">Contact</a>
+        <a href="#contact" class="nav-link">Contact</a>
       </nav>
       <div class="hamburger" id="hamburger">
         <span class="bar"></span>
@@ -39,10 +40,10 @@
 
       <!-- PROJECTS -->
       <section id="projects">
-        <h1 class="section-title">Projects</h1>
-        <h3 class="subtitle">Responsive Web Design</h3>
+        <h1 class="section-title" data-aos="fade-up">Projects</h1>
+        <h3 class="subtitle"data-aos="fade-up">Responsive Web Design</h3>
         <div class="projects-grid">
-          <div class="project-tile">
+          <div class="project-tile" data-aos="fade-up">
             <div class="img-container">
               <img
                 class="card-img"
@@ -53,45 +54,71 @@
             <div class="project-content">
               <h3>Technical Documentation</h3>
               <div class="links">
-                <div class="link">
-                  <i class="fab fa-github"></i>
-                  <p>Github</p>
-                </div>
-                <div class="link">
-                  <i class="fas fa-laptop-code"></i>
-                  <p>Demo</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="project-tile">
-            <img class="card-img" src="./images/landing-page.png" alt="" />
-            <div class="project-content">
-              <h3>Landing Page</h3>
-              <div class="links">
-                <div class="link">
-                  <i class="fab fa-github"></i>
-                  <p>Github</p>
-                </div>
-                <div class="link">
-                  <i class="fas fa-laptop-code"></i>
-                  <p>Demo</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="project-tile">
-            <img class="card-img" src="./images/coldplay.png" alt="" />
-            <div class="project-content">
-              <h3>Tribute Page</h3>
-              <div class="links">
-                <a href="">
+                <a
+                  href="https://github.com/mariorizki/technical-documentation-page-freecodecamp"
+                  target="_blank"
+                >
                   <div class="link">
                     <i class="fab fa-github"></i>
                     <p>Github</p>
                   </div>
                 </a>
-                <a href="">
+                <a
+                  href="https://flexbox-technical-documentation-freecodecamp.netlify.app/"
+                  target="_blank"
+                >
+                  <div class="link">
+                    <i class="fas fa-laptop-code"></i>
+                    <p>Demo</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-tile" data-aos="fade-up">
+            <img class="card-img" src="./images/landing-page.png" alt="" />
+            <div class="project-content">
+              <h3>Landing Page</h3>
+              <div class="links">
+                <a
+                  href="https://github.com/mariorizki/landing-page-freecodecamp"
+                  target="_blank"
+                >
+                  <div class="link">
+                    <i class="fab fa-github"></i>
+                    <p>Github</p>
+                  </div>
+                </a>
+                <a
+                  href="https://hamburglar-landing-page-freecodecamp.netlify.app/"
+                  target="_blank"
+                >
+                  <div class="link">
+                    <i class="fas fa-laptop-code"></i>
+                    <p>Demo</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-tile" data-aos="fade-up">
+            <img class="card-img" src="./images/coldplay.png" alt="" />
+            <div class="project-content">
+              <h3>Tribute Page</h3>
+              <div class="links">
+                <a
+                  href="https://github.com/mariorizki/coldplay-tribut-page-freecodecamp"
+                  target="_blank"
+                >
+                  <div class="link">
+                    <i class="fab fa-github"></i>
+                    <p>Github</p>
+                  </div>
+                </a>
+                <a
+                  href="https://coldplay-tribute-page.netlify.app/"
+                  target="_blank"
+                >
                   <div class="link">
                     <i class="fas fa-laptop-code"></i>
                     <p>Demo</p>
@@ -103,23 +130,91 @@
         </div>
       </section>
       <section id="skills">
-        <h1>Skills</h1>
+        <h1 data-aos="fade-up">Skills</h1 data-aos="fade-up">
+        <div class="skill-icons" data-aos="fade-up">
+          <img src="./images/Html 5.png" alt="" />
+          <img src="./images/CSS3.png" alt="" />
+          <img src="./images/JavaScript.png" alt="" />
+          <img src="./images/React Native.png" alt="" />
+          <img src="./images/Redux.png" alt="" />
+          <img src="./images/Sass.png" alt="" />
+          <img src="./images/Nodejs.png" alt="" />
+        </div>
       </section>
       <section id="about">
-        <h1>About Me</h1>
+        <h1 data-aos="fade-up">About Me</h1>
+        <p data-aos="fade-up">
+          A Front-end Developer with beginner mentality—constantly relearn what
+          I already know, eager and curious to learn something new. Back in
+          Faculty of Psychology UIN Syarif Hidayatullah, I actively joined in
+          various student activities, absorbing any knowledge and experience. I
+          also attended several coding bootcamps to hone my software development
+          skills. Playing violin, watching Ted Talks and chilling at Warkop
+          Tampomas on my spare times.
+        </p>
       </section>
       <section id="contact">
-        <h1>Contact</h1>
-        <a href="" id="profile-link" target="_blank">
-          <div class="link">
-            <i class="fab fa-github"></i>
-            <p>Github</p>
-          </div>
-        </a>
+        <h1 data-aos="fade-up">Contact</h1>
+        <div class="socmed" data-aos="fade-up">
+          <a
+            href="https://github.com/mariorizki"
+            id="profile-link"
+            target="_blank"
+          >
+            <div class="link">
+              <i class="fab fa-github"></i>
+              <p>Github</p>
+            </div>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/mario-rizki-54b731178/"
+            id="profile-link"
+            target="_blank"
+          >
+            <div class="link">
+              <i class="fab fa-linkedin"></i>
+              <p>LinkedIn</p>
+            </div>
+          </a>
+          <a
+            href="https://twitter.com/Mariorizki"
+            id="profile-link"
+            target="_blank"
+          >
+            <div class="link">
+              <i class="fab fa-twitter"></i>
+              <p>Twitter</p>
+            </div>
+          </a>
+          <a
+            href="https://www.instagram.com/mariorizki_/"
+            id="profile-link"
+            target="_blank"
+          >
+            <div class="link">
+              <i class="fab fa-instagram"></i>
+              <p>Instagram</p>
+            </div>
+          </a>
+        </div>
       </section>
+
+      <footer>
+        &copy; Created for
+        <a href="https://www.freecodecamp.com/" target="_blank"
+          >freeCodeCamp <i class="fab fa-free-code-camp"></i
+        ></a>
+      </footer>
     </main>
 
     <script src="script.js"></script>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        mirror: true,
+        offset: 150,
+        duration: 2000
+      });
+    </script>
   </body>
 </html>

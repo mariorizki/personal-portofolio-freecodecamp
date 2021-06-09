@@ -183,8 +183,8 @@ header {
   color: #fca311;
 }
 
-/* =================MEDIA QUERY FOR MOBILE=============== */
-@media screen and (max-width: 767px) {
+/* =================PROJECTS MEDIA QUERY FOR MOBILE=============== */
+@media screen and (max-width: 768px) {
   .projects-grid {
     grid-template-columns: 1fr;
     max-width: 90%;
@@ -193,4 +193,68 @@ header {
   .project-tile {
     margin: 1rem auto;
   }
+}
+
+/* ==============SKILLS SECTION=================================== */
+#skills {
+  margin-top: 3rem;
+  text-align: center;
+  padding: 2rem;
+}
+
+.skill-icons {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+/* =============ABOUT ME SECTION====================== */
+#about {
+  padding: 2rem;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+#about p {
+  font-weight: 200;
+  padding: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  #about {
+    padding: 1rem;
+  }
+  #about p {
+    padding: 0;
+  }
+}
+
+/* =============CONTACT========================= */
+#contact {
+  padding: 3rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.socmed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.socmed .link {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0 2rem;
+}
+
+/* FOOTER */
+footer {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

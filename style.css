@@ -252,7 +252,7 @@ header {
 }
 
 @media screen and (max-width: 768px) {
-  .socmed link {
+  .socmed .link {
     font-size: 1rem;
   }
 }
